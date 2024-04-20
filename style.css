@@ -1,0 +1,8 @@
+/* Blue: #0055A4 */
+/* Red: #EF4135 */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #0055A4;
+}
