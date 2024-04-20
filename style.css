@@ -4,7 +4,14 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+.paris {
 	background-color: #0055A4;
+}
+
+.normandy {
+	background-color: #EF4135;
 }
 
 #map {
@@ -34,10 +41,17 @@ html, body {
 .switch-map-btn {
 	margin: 0 0 1em 0;
 	padding: 1em 1em;
-	background-color: #EF4135;
 	color: white;
 	border-radius: 10px;
 	font-family: sans-serif;
+}
+
+.paris-btn {
+	background-color: #EF4135;
+}
+
+.normandy-btn {
+	background-color: #0055A4;
 }
 
 .subtitle {

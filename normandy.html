@@ -3,9 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Normandy Map</title>
+	<link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-	<!-- White background with red text -->
+<body class="normandy">
+	<div class="container">
+		<h1 class="font title">Normandy</h1>
+		<a href="paris.html" class="switch-map-btn normandy-btn">Go to Paris Map</a>
+		<div id="map"></div>
+	</div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbPLP-ht2wpa8AfHeKFiiLzzB-tJoNrfM&callback=initMap" async defer></script>
+	<script type="text/javascript" src="normandy.js"></script>
 </body>
 </html>
