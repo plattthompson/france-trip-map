@@ -6,3 +6,59 @@ html, body {
 	padding: 0;
 	background-color: #0055A4;
 }
+
+#map {
+	/* height: 80%; */
+	height: 70%;
+	width: 98%;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.font {
+	font-family: 'DM Serif Display', serif;
+}
+
+.title {
+	margin: 0.1em 0;
+	font-size: 5em;
+	color: white;
+}
+
+.switch-map-btn {
+	margin: 0 0 1em 0;
+	padding: 1em 1em;
+	background-color: #EF4135;
+	color: white;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+
+.subtitle {
+	font-size: 700%;
+	text-decoration: underline;
+}
+
+.company-name {
+	font-size: 550%;
+}
+
+ul {
+	font-size: 300%;
+	list-style-type: square;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+.strike {
+	text-decoration: line-through;
+}
